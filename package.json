@@ -1,0 +1,19 @@
+{
+  "name": "eslint-plugin-funfp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha ./rules/**/test.js "
+  },
+  "dependencies": {
+    "create-eslint-index": "^1.0.0",
+    "eslint-ast-utils": "^1.0.0",
+    "req-all": "^0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.0",
+    "mocha": "^3.2.0",
+    "tape": "^4.6.3"
+  }
+}

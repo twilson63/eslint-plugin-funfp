@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "mocha ./rules/**/test.js "
+    "test": "nyc ./node_modules/.bin/ava -v",
+    "report-coverage": "nyc report --reporter=lcov > coverage.lcov && codecov",
+    "standard": "standard index.js"
   },
   "dependencies": {
     "create-eslint-index": "^1.0.0",
@@ -14,6 +16,17 @@
   "devDependencies": {
     "eslint": "^3.13.0",
     "mocha": "^3.2.0",
-    "tape": "^4.6.3"
+    "tape": "^4.6.3",
+    "ava": "^0.16.0",
+    "co-exec": "^1.0",
+    "codecov": "^1.0.1",
+    "ghooks": "^1.2.4",
+    "nyc": "^10.0.0",
+    "standard": "^8.4.0"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run standard"
+    }
   }
 }

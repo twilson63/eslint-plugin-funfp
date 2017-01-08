@@ -4,14 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "nyc ./node_modules/.bin/ava -v",
+    "test": "mocha rules/**/test.js",
     "report-coverage": "nyc report --reporter=lcov > coverage.lcov && codecov",
     "standard": "standard index.js"
   },
   "dependencies": {
-    "create-eslint-index": "^1.0.0",
-    "eslint-ast-utils": "^1.0.0",
-    "req-all": "^0.1.0"
+    "eslint-ast-utils": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^3.13.0",

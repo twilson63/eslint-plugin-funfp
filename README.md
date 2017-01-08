@@ -14,6 +14,12 @@ Use this plugin with the eslint-plugin-fp for a powerful fp experience.
 - [no-array-map](./rules/no-array-map)
 - [no-foreach](./rules/no-foreach)
 
+## .eslint.js
+
+```
+
+```
+
 ## License
 
 ## Contributions

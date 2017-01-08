@@ -6,8 +6,8 @@ module.exports = {
   configs: {
     recommended: {
       rules: {
-        'no-array-map': "error",
-        'no-foreach': "error"
+        'funfp/no-array-map': "error",
+        'funfp/no-foreach': "error"
       }
     }
   }

@@ -11,12 +11,24 @@ Use this plugin with the eslint-plugin-fp for a powerful fp experience.
 
 ## Rules
 
+- [no-array-filter](./rules/no-array-filter)
 - [no-array-map](./rules/no-array-map)
 - [no-foreach](./rules/no-foreach)
 
 ## .eslint.js
 
+Make sure you enable the recommended rules using the
+extends node
+
 ```
+module.exports = {
+    "extends": [
+      "plugin:funfp/recommended"
+    ],
+    "plugins": [
+        "funfp"
+    ]
+}
 
 ```
 

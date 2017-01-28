@@ -13,6 +13,7 @@ Use this plugin with the eslint-plugin-fp for a powerful fp experience.
 
 - [no-array-filter](./rules/no-array-filter)
 - [no-array-map](./rules/no-array-map)
+- [no-array-reduce](./rules/no-array-reduce)
 - [no-foreach](./rules/no-foreach)
 
 ## .eslint.js
@@ -33,5 +34,7 @@ module.exports = {
 ```
 
 ## License
+
+MIT
 
 ## Contributions

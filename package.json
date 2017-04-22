@@ -26,5 +26,16 @@
     "ghooks": {
       "pre-commit": "npm run standard"
     }
-  }
+  },
+  "description": "A eslint plugin to encourage point-free style of functional programming using ramda, funfp, or lodash/fp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twilson63/eslint-plugin-funfp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/twilson63/eslint-plugin-funfp/issues"
+  },
+  "homepage": "https://github.com/twilson63/eslint-plugin-funfp#readme"
 }
